@@ -107,12 +107,12 @@ namespace C3SharpInterface
                 case Command.FileReadContent:
                     result = new Responses.FileReadResponse();
                     break;
-                case Command.VolumeGetProperties:
-                    result = new Responses.VolumePropertiesResponse();
-                    break;
-                case Command.VolumeList:
-                    result = new Responses.VolumeListResponse();
-                    break;
+                //case Command.VolumeGetProperties:
+                //    result = new Responses.VolumePropertiesResponse();
+                //    break;
+                //case Command.VolumeList:
+                //    result = new Responses.VolumeListResponse();
+                //    break;
                 default:
                     result = new Response();
                     break;
